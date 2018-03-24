@@ -11,6 +11,7 @@ import org.mockito.BDDMockito;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.springframework.boot.autoconfigure.AutoConfigureBefore;
+import org.springframework.test.context.TestPropertySource;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -86,6 +87,35 @@ public class StudentServiceDatabaseTest {
 //        Then
         BDDMockito.then(studentMapper).should().addStudent(check);
         assertThat(test, equalTo(true));
+    }
+
+    @Test
+    public void deleteStudent(){
+//        Given
+        StudentModel studentModel = new StudentModel("1606957895", "Musk", 3.9);
+        StudentModel check = new StudentModel("1606957895", "Musk", 3.9);
+        BDDMockito.given(studentService.deleteStudent("1606957895")).willReturn(true);
+
+//        When
+        boolean test = studentService.deleteStudent("1606957895");
+
+//        Then
+        BDDMockito.then(studentMapper).should().deleteStudent("1606957895");
+//        assertThat(test, notNullValue());
+        assertThat(test, equalTo(true));
+    }
+
+    @Test
+    public void updateStudent(){
+//        Given
+        StudentModel studentmodel = new StudentModel("16069436778", "Jobs", 4.0);
+        StudentModel check = new StudentModel("16069436778", "Jobs", 4.0);
+        BDDMockito.given(studentService.updateStudent(studentmodel)).willReturn(true);
+//        When
+        boolean test  = studentService.updateStudent(studentmodel);
+//        Then
+        BDDMockito.then(studentMapper).should().updateStudent(check);
+        assertThat(test,equalTo(true));
     }
 
 }

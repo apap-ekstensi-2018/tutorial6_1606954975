@@ -15,8 +15,8 @@ public interface StudentService
     boolean addStudent (StudentModel student);
 
 
-    void deleteStudent (String npm);
+    boolean deleteStudent (String npm);
     
-    void updateStudent (StudentModel student);
+    boolean updateStudent (StudentModel student);
     
 }

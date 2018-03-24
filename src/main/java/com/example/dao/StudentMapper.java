@@ -24,9 +24,9 @@ public interface StudentMapper
     boolean addStudent (StudentModel student);
     
     @Delete("Delete from student where npm = #{npm}")
-    void deleteStudent (@Param("npm") String npm);
+    boolean deleteStudent (@Param("npm") String npm);
     
     @Update("Update student set name = #{student.name}, gpa = #{student.gpa} where npm = #{student.npm}")
-    void updateStudent (@Param("student") StudentModel student );
+    boolean updateStudent (@Param("student") StudentModel student );
     
 }
