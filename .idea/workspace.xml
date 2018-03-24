@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e024388b-6468-4040-bcc4-914a80b8bc8b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/controller/StudentController5.class" afterPath="$PROJECT_DIR$/target/classes/com/example/controller/StudentController5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/dao/StudentMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/example/dao/StudentMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/service/StudentService.class" afterPath="$PROJECT_DIR$/target/classes/com/example/service/StudentService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/service/StudentServiceDatabase.class" afterPath="$PROJECT_DIR$/target/classes/com/example/service/StudentServiceDatabase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/example/service/StudentServiceDatabaseTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/example/service/StudentServiceDatabaseTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/dao/StudentMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/dao/StudentMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/service/StudentService.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/StudentService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/service/StudentServiceDatabase.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/StudentServiceDatabase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/com/example/service/StudentServiceDatabaseTest.java" afterPath="$PROJECT_DIR$/src/test/com/example/service/StudentServiceDatabaseTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -70,8 +60,8 @@
       <file leaf-file-name="StudentServiceDatabaseTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/com/example/service/StudentServiceDatabaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="669">
-              <caret line="98" column="14" lean-forward="true" selection-start-line="98" selection-start-column="14" selection-end-line="98" selection-end-column="14" />
+            <state relative-caret-position="316">
+              <caret line="104" column="33" lean-forward="false" selection-start-line="104" selection-start-column="33" selection-end-line="104" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,11 +100,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/com/example/service/StudentServiceDatabaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/dao/StudentMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/service/StudentServiceDatabase.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/service/StudentService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/test/com/example/service/StudentServiceDatabaseTest.java" />
       </list>
     </option>
   </component>
@@ -247,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApapTutorial04Application">
+  <component name="RunManager" selected="JUnit.tutorial_6_test">
     <configuration name="ApapTutorial04Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ApapTutorial04Application" />
@@ -374,7 +364,7 @@
       <option name="presentableId" value="Default" />
       <updated>1521552587559</updated>
       <workItem from="1521552591333" duration="6061000" />
-      <workItem from="1521855839917" duration="7054000" />
+      <workItem from="1521855839917" duration="8311000" />
     </task>
     <servers />
   </component>
@@ -397,12 +387,16 @@
     <history-entry file="tutorial_6_test - 2018.03.24 at 15h 14m 03s.xml">
       <configuration name="tutorial_6_test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="tutorial_6_test - 2018.03.24 at 19h 31m 25s.xml">
+      <configuration name="tutorial_6_test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13115000" />
+    <option name="totallyTimeSpent" value="14372000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -418,7 +412,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21964286" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21964286" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -562,8 +556,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/example/service/StudentServiceDatabaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="669">
-          <caret line="98" column="14" lean-forward="true" selection-start-line="98" selection-start-column="14" selection-end-line="98" selection-end-column="14" />
+        <state relative-caret-position="316">
+          <caret line="104" column="33" lean-forward="false" selection-start-line="104" selection-start-column="33" selection-end-line="104" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
